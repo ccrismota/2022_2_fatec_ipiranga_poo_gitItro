@@ -36,9 +36,36 @@ public class Empregado{
         this.tipo = tipo;
     }
 
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
     public int getTipo() {
         return tipo;
     }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public double getComissao() {
+        return comissao;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    
+
 
     //NOTAS: 
 
@@ -49,4 +76,6 @@ public class Empregado{
 
     //UNTRACKED = SEM CONTROLE DE VERSÃO
     //O 'A' representa a passagem do untracked para o Tracked e o verde significa que está stadge;
+
+    //Git add . => 
 }
