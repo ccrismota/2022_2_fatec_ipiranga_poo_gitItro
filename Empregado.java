@@ -32,6 +32,14 @@ public class Empregado{
         this.nome = nome;
     }
 
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getTipo() {
+        return tipo;
+    }
+
     //NOTAS: 
 
     //O stado do objeto é constituido dos valores de suas variaveis, no caso de "p" o seu estado é energia=5, fome=5, sono=5;
