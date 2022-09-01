@@ -64,7 +64,7 @@ public class Empregado{
         return salario;
     }
 
-    
+
 
 
     //NOTAS: 
@@ -77,5 +77,5 @@ public class Empregado{
     //UNTRACKED = SEM CONTROLE DE VERSÃO
     //O 'A' representa a passagem do untracked para o Tracked e o verde significa que está stadge;
 
-    //Git add . => 
+    //Git add . => adiciona até os arquivos untracked.
 }
